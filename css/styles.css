@@ -768,14 +768,13 @@ input {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
   margin-top: 16px;
   border-radius: 4px;
   width: 360px;
   height: 336px;
 }
 
-.form-fields-wrapper {
+.form-field-wrapper {
   margin-bottom: 8px;
 }
 
