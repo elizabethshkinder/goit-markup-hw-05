@@ -770,20 +770,17 @@ input {
   color: #8e8f99;
 }
 
-/* .modal-input-wraper .modal-input:hover,
-.modal-input-wraper .modal-icon:hover,
-.modal-comment .modal-comment::placeholder {
+.modal-input:focus,
+.modal-input:hover,
+.modal-comment:focus,
+.modal-comment:hover {
   border-color: #4d5ae5;
-  stroke: #4d5ae5;
-  color: #4d5ae5;
+  outline: none;
 }
 
-.modal-input-wraper .modal-input:focus,
-.modal-input-wraper .modal-icon:focus,
-.modal-comment .modal-comment::placeholder {
-  border-color: #4d5ae5;
+.modal-input-wrapper:focus-within .modal-icon {
   stroke: #4d5ae5;
-  color: #4d5ae5; */
+}
 
 .modal-input-wrapper {
   position: relative;
