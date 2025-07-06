@@ -629,11 +629,9 @@ input {
   fill: #f4f4fd;
 }
 
-.footer-form {
+.footer-form-wrapper {
   display: block;
   margin-left: 80px;
-  width: 453px;
-  height: 80px;
 }
 
 .footer-form-title {
@@ -647,7 +645,12 @@ input {
   color: #fff;
 }
 
-.footer-form-wrapper {
+.footer-form {
+  width: 453px;
+  height: 80px;
+}
+
+.form-label {
   display: flex;
   flex-direction: row;
   gap: 24px;
