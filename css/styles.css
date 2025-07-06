@@ -748,6 +748,8 @@ input {
 .modal-close-icon:focus {
   background-color: #404bbf;
   fill: #fff;
+  border: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-title {
@@ -771,6 +773,10 @@ input {
   border-radius: 4px;
   width: 360px;
   height: 336px;
+}
+
+.form-fields-wrapper {
+  margin-bottom: 8px;
 }
 
 .modal-form-field {
@@ -893,7 +899,7 @@ input {
 }
 
 .modal-form-btn {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -901,7 +907,7 @@ input {
   border-radius: 4px;
   padding: 16px 32px;
   margin-top: 8px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
@@ -913,7 +919,8 @@ input {
   text-align: center;
   color: #fff;
   align-self: center;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-btn:hover,
