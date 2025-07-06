@@ -526,7 +526,12 @@
           <div class="form-field-wrapper">
             <label class="modal-label" for="user-name">Name</label>
             <div class="modal-input-wrapper">
-              <input type="text" class="modal-input" id="user-name" />
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                id="user-name"
+              />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
@@ -534,9 +539,14 @@
           </div>
 
           <div class="form-field-wrapper">
-            <label class="modal-label" for="userphone">Phone</label>
+            <label class="modal-label" for="user-phone">Phone</label>
             <div class="modal-input-wrapper">
-              <input type="tel" class="modal-input" id="userphone" />
+              <input
+                type="tel"
+                class="modal-input"
+                name="user-phone"
+                id="user-phone"
+              />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -544,13 +554,26 @@
           </div>
 
           <div class="form-field-wrapper">
-            <label for="usercomment" class="modal-label">Coment</label>
+            <label class="modal-label" for="user-email">Email</label>
+            <div class="modal-input-wrapper">
+              <input
+                type="email"
+                class="modal-input"
+                name="user-email"
+                id="user-email"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field-wrapper">
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-comment"
-              type="text"
               name="user-comment"
-              rows="6"
-              id="usercomment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
