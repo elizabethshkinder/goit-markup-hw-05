@@ -682,8 +682,8 @@ input {
   fill: #f4f4fd;
 }
 
-.modal-overlay {
-  display: flex;
+.modal-backdrop {
+  display: none;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -695,8 +695,12 @@ input {
   background-color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-backdrop.is-open {
+  display: flex;
+}
+
 .modal {
-  justify-content: center;
+  position: relative;
   padding: 24px;
   border-radius: 4px;
   width: 408px;
@@ -707,8 +711,12 @@ input {
 }
 
 .modal-window-close {
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  top: 24px;
+  right: 24px;
 }
 
 .close-icon-wrap {
@@ -721,6 +729,7 @@ input {
   background-color: #e7e9fc;
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .close-icon-wrap:hover,
@@ -732,10 +741,10 @@ input {
 }
 
 .modal-form-title {
-  margin-top: 24px;
+  margin-top: 48px;
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 24px; */
+  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
