@@ -672,17 +672,21 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
+  border: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-icon {
+  margin-left: 16px;
   fill: #f4f4fd;
 }
 
