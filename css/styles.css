@@ -690,9 +690,8 @@ input {
   fill: #f4f4fd;
 }
 
-/* display: none; */
-
 .modal-backdrop {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
