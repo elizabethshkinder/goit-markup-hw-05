@@ -879,14 +879,12 @@ input {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  flex-shrink: 0;
 }
 
 .custom-checkbox-icon {
   width: 10px;
   height: 8px;
   fill: transparent;
-  /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .modal-checkbox:checked + .privacy .custom-checkbox {
